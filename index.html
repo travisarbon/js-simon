@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <title>Simon Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type =  "text/javascript" src = "script.js"></script>
+</head>
+<body id = "main">
+<div class = "container-fluid">
+    <div id = "top">
+        <h1>Simon Says!</h1>
+    </div>
+    <div id = "game">
+    <div id = "game-backing">
+       <div id = "top-row" class = "row">
+           <div id = "top-left" class = "col-xs-6 btn"></div>
+           <div id = "top-right" class = "col-xs-6 btn"></div>
+       </div>
+        <div id = "bottom-row" class = "row">
+            <div id = "bottom-left" class = "col-xs-6 btn"></div>
+            <div id = "bottom-right" class = "col-xs-6 btn"></div>
+        </div>
+    </div>
+    <div id = "control-backing">
+        <div id = "display-row" class = "row">
+            <div id = "display" class = "col-xs-6"><p>Stopped</p></div>
+            <div id = "strict-switch" class = "col-xs-6">
+                <input id = "easy-button" type="radio" name="piece" value="easy" checked="checked"> Easy
+                <input id = "strict-button" type="radio" name="piece" value="strict"> Strict
+            </div>
+        </div>
+        <div id = "button-row" class = "row">
+            <div id = "start-button" class = "col-xs-6 btn">Start/Pause</div>
+            <div id = "reset-button" class = "col-xs-6 btn">Reset</div>
+        </div>
+    </div>
+    </div>
+<div id = "end">
+    <p>Coded by Travis Arbon</p>
+</div>
+</div>
+</body>
+</html>
