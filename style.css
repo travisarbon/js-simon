@@ -121,20 +121,20 @@ body {
 
 @media screen and (max-width: 750px){
     #game-backing {
-        width: 400px;
+        width: 350px;
     }
 
     #top-left, #top-right, #bottom-left, #bottom-right{
-        height: 120px;
-        width: 185px;
+        height: 105px;
+        width: 161px;
     }
 
     #control-backing {
-        width: 400px;
+        width: 350px;
     }
 
     #display, #strict-switch, #start-button, #reset-button{
-        width: 155px;
+        width: 135px;
     }
 
 }
