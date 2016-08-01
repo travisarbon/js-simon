@@ -126,7 +126,7 @@ body {
 
     #top-left, #top-right, #bottom-left, #bottom-right{
         height: 105px;
-        width: 161px;
+        width: 160px;
     }
 
     #control-backing {
@@ -134,7 +134,7 @@ body {
     }
 
     #display, #strict-switch, #start-button, #reset-button{
-        width: 135px;
+        width: 130px;
     }
 
 }
